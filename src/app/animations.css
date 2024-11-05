@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Funky Font";
+  src: url("https://garet.typeforward.com/assets/fonts/shared/TFMixVF.woff2")
+    format("woff2");
+}
+
+#home-main-logo span {
+  font-family: "Funky Font";
+  color: white;
+  text-align: center;
+  animation: letter-breathe 8s ease-in-out infinite;
+}
+@keyframes letter-breathe {
+  from,
+  to {
+    font-variation-settings: "wght" 100;
+  }
+  50% {
+    font-variation-settings: "wght" 900;
+  }
+}
